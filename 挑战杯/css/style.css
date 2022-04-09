@@ -1,0 +1,64 @@
+*{ margin:0; padding:0;}
+body,p,h1,h2,h3,h4,h5,table,ul,li,form,input{ margin:0; padding:0; color:#000; font-family:"Microsoft yahei" ; }
+body,p{ font-size:12px; border:none;}
+body{ width:1200px; margin:0 auto;}
+a{ font-size:12px; color:#000; text-decoration:none; border:none; padding:0; margin:0;}
+a:hover{ color:#00923f;}
+img{ border:0; margin:0; padding:0;}
+ul,li{ list-style:none; border:0; margin:0; padding:0;}
+dl,dt,dd{ margin:0; padding:0; -webkit-margin-start:0;}
+h1,h2,h3,h4,h5{ font-weight:normal; font-size:12px; display:block;}
+strong,b{ font-weight:normal;}
+table,tr,td{ border-spacing:0;}
+em,i,b{ font-style:normal;}
+
+.head{ width:100%; overflow:hidden; background:url(../images/head.jpg) no-repeat; height:100px;}
+.title{font-size: 36px;letter-spacing: 4px; color:#5a5a5a; text-align:center;    font-family: SimSun; margin-top:14px;}
+.title_x{ font-size:18px;letter-spacing: 4px; color:#5a5a5a;font-family: SimSun; width:660px;}
+.title_x i{ width:100px; height:1px; background:#5a5a5a; float:left; margin-top:10px; margin-right:10px;}
+.title_x i1{ width:100px; height:1px; background:#5a5a5a; float:right; margin-top:10px; margin-right:10px;}
+
+.nav{ width:100%; overflow:hidden; background:#2b2b2b; height:50px;}
+.nav li{ width:171.4px; text-align:center; font-size:16px; color:#FFFFFF; line-height:50px; float:left;}
+.nav li.on{ background:#8d0505;}
+.nav a:hover li{background:#8d0505;}
+
+.banenr{ width:100%; overflow:hidden;}
+
+.bj{ width:100%; overflow:hidden; background:url(../images/bj.jpg);}
+
+.cha{ width:100%; overflow:hidden; }
+.bt{ width:100%; overflow:hidden; text-align:center;}
+.bt_wz{font-size: 30px;color:#8d0505; width:100%; overflow:hidden; text-align:center; line-height:80px;}
+.cha_nr{ width:1160px; margin-left:20px; font-size:16px; color:#333333; line-height:30px; text-align:left;}
+.cha_tp{ width:100%; overflow:hidden; padding-top:10px;}
+.cha_tp li{ width:300px; float:left; text-align:center;}
+.cha_tp li img{ width:280px; height:280px;}
+
+.footer{ width:100%; overflow:hidden; height:50px; line-height:50px; text-align:center; color:#FFFFFF; font-size:14px; background:#2b2b2b; margin-top:30px;}
+
+.cha_wz{width:1160px; margin-left:20px; font-size:16px; color:#333333; line-height:30px;}
+.cha_wz h1{font-size:22px; color:#000000; font-weight:bold; }
+
+
+
+.jd{ width:100%; overflow:hidden; margin-top:10px; margin-bottom:30px;}
+.jd li{ width:1180px; margin-left:10px; border-bottom:1px dashed #999999; height:160px; margin-top:10px;}
+.t{ width:300px; float:left;}
+.t img{ width:300px; height:150px;}
+.wz{ width:850px; float:right; font-size:16px; color:#333333; line-height:30px;}
+.wz h1{ font-size:18px; color:#000000; font-weight:bold;}
+.wz h1 a{ font-size:30px; color:#000000; font-weight:bold;}
+.wz h1 .dai{ font-size:18px; color:#000000; font-weight:bold;}
+
+.cs{ width:100%;overflow:hidden;}
+.cs li{ width:360px; float:left; margin-left:30px;margin-top:20px;overflow:hidden; height:300px;}
+.cs li img{ width:360px; height:300px;cursor: pointer; transition: all 0.6s;  }
+.cs a:hover li{box-shadow:1px 1px 5px 5px #cccccc; color:#FF0000;}
+.cs li:hover img{transform: scale(1.2); }
+
+form {width: 300px; margin: 0 auto;font-size: 14px;}
+.biao {width: 220px;height: 30px;border: 2px solid #f2d9ac;}
+.biao1 {width: 190px;height: 30px; border: 2px solid #f2d9ac;}
+.biao2 {width: 220px;height: 90px;border: 2px solid #f2d9ac;}
+.button {width: 90px;height: 35px; margin-left: 110px;line-height: 35px; text-align: center; background-color: #999999;}
